@@ -3,10 +3,10 @@ package com.DEMOJWT.demo.dto;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "usuarios")
+@Document(collation = "users")
 public class User {
     @Id
-    private Long id;
+    private String id;
     private String user;
     private String pwd;
     private String token;
@@ -15,18 +15,18 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String user, String pwd, String token) {
+    public User(String id, String user, String pwd, String token) {
         this.id = id;
         this.user = user;
         this.pwd = pwd;
         this.token = token;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -52,5 +52,8 @@ public class User {
 
     public void setToken(String token) {
         this.token = token;
+    }
+
+    public void getPwd(String pwd) {
     }
 }
