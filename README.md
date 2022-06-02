@@ -12,7 +12,7 @@ Duvan Botero Rivillas
 ## Se genera la autorización del usuario ingresando el token (se le da la bienvenida al sistema)
 ![image](https://user-images.githubusercontent.com/96325513/171521368-77e9a1c4-1109-468a-b884-80d1ec485e26.png)
 
-## Base de datos en MongoDB Atlas
+## Base de datos en MongoDB Atlas con un usuario
 ![image](https://user-images.githubusercontent.com/96325513/171521434-e6033733-f6a0-4039-9e78-6a3d9d0d6152.png)
 
 ## MUCHAS GRACIAS.....
