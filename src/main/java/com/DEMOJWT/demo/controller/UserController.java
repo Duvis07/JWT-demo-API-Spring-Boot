@@ -26,9 +26,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @GetMapping("user")
+    @GetMapping("/user")
     public Mono<ResponseEntity<User>> login(@RequestParam("user") String username,
-                                            @RequestParam("password") String pwd) {
+                                            @RequestParam("pwd") String pwd) {
 
         String token = getJWTToken(username);
 
